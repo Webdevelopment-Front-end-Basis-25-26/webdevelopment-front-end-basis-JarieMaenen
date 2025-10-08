@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening formulieren</title>
+</head>
+
+<body>
+    <form 	
+	action="http://example.com/join.php" 
+	method="get">
+
+<fieldset>
+     <legend>Contact details</legend>
+    <table border="1">
+        <tr>
+            <td><label>Naam:</td>
+            <td><input type="text" name="naam"></label></td>
+            <td><label>Voornaam:</td>
+            <td> <input type="text" name="voornaam"></label></td>
+        </tr>
+        <tr>
+            <td><label>Adres:</td>
+            <td colspan="3"><textarea name="adres" cols="40" rows="2" placeholder=""></textarea></label></td>
+        </tr>
+        <tr>
+            <td><label>Postcode:</td>
+            <td><input type="number" name="Postcode"></label></label></td>
+
+            <td>Gemeente:</td>
+            <td><label><input type="text" name="Gemeente"></label>
+        </tr>
+        <tr>
+            <td><label>Email adres:</label></td>
+            <td colspan="3"><input type="email" name="email"></label></td>
+        </tr>
+        <tr>
+            <td><label>Website:</td>
+            <td colspan="3"><input type="text" name="Website" placeholder="Website van je bedrijf"></label></td>
+        </tr>
+        <tr>
+            <td><label>Geboortedatum:</label></td>
+            <td><input type="date" name="datum"></label></td>
+            <td><label>Aantal kinderen:</label></td>
+            <td><input type="number" name="aantal kinderen"></td>
+        </tr>
+        <tr>
+            <td>Geslacht:</td>
+            <td colspan="3"><input id="man" type="radio" name="gender" value="man">
+            <label for="man">Man</label>
+            <input id="vrouw" type="radio" name="gender" value="vrouw">
+            <label for="vrouw">Vrouw</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" checked>Wij mogen u per e-mail contacteren</td>
+            <td colspan="2"><input type="checkbox" checked>Wij mogen u per post contacteren</td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <legend>Opdracht</legend>
+    <table>
+
+    </table>
+</fieldset>
+    
+</form>
+</body>
+</html>
