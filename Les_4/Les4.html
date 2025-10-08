@@ -13,37 +13,37 @@
 
 <fieldset>
      <legend>Contact details</legend>
-    <table border="1">
+    <table>
         <tr>
-            <td><label for="naam">Naam:</td>
-            <td><input id="naam" type="text" name="naam" required></label></td>
-            <td><label for="voornaam">Voornaam:</td>
-            <td> <input id="voornaam" type="text" name="voornaam"></label></td>
+            <td><label for="naam">Naam:</label></td>
+            <td><input id="naam" type="text" name="naam" required></td>
+            <td><label for="voornaam">Voornaam:</label></td>
+            <td> <input id="voornaam" type="text" name="voornaam"></td>
         </tr>
         <tr>
-            <td><label for="adres">Adres:</td>
-            <td colspan="3"><textarea id="adres" name="adres" cols="50" rows="2" placeholder=""></textarea></label></td>
+            <td><label for="adres"> Adres: </label></td> 
+            <td colspan="3"><textarea id="adres" name="adres" cols="50" rows="2" placeholder=""></textarea></td>
         </tr>
         <tr>
-            <td><label for="Postcode">Postcode:</td>
-            <td><input id="Postcode" type="tekst" name="Postcode" maxlength="4" size="4"></label></label></td>
+            <td><label for="Postcode">Postcode:</label></td>
+            <td><input id="Postcode" type="text" name="Postcode" size="4"></td>
 
-            <td><label for="Gemeente">Gemeente:</td>
-            <td><input id="Gemeente" type="text" name="Gemeente"></label></td>
+            <td><label for="Gemeente">Gemeente:</label></td>
+            <td><input id="Gemeente" type="text" name="Gemeente"></td>
         </tr>
         <tr>
             <td><label for="email">Email adres:</label></td>
-            <td colspan="3"><input id="email" type="email" name="email" maxlength="50" size="50" required value="@student.ucll.be"></label></td>
+            <td colspan="3"><input id="email" type="email" name="email" maxlength="50" size="50" required value="@student.ucll.be"></td>
         </tr>
         <tr>
-            <td><label for="Website">Website:</td>
-            <td colspan="3"><input id="Website" type="url" name="Website" size="50" placeholder="Website van je bedrijf"></label></td>
+            <td><label for="Website">Website:</label></td>
+            <td colspan="3"><input id="Website" type="url" name="Website" size="50" placeholder="Website van je bedrijf"></td>
         </tr>
         <tr>
             <td><label for="Geboortedatum">Geboortedatum:</label></td>
-            <td><input id="Geboortedatum" type="date" name="datum"></label></td>
-            <td><label for="aantal kinderen">Aantal kinderen:</label></td>
-            <td><input id="aantal kinderen" type="number" name="aantal kinderen"></td>
+            <td><input id="Geboortedatum" type="date" name="datum"></td>
+            <td><label for="aantal_kinderen">Aantal kinderen:</label></td>
+            <td><input id="aantal_kinderen" type="number" name="aantal_kinderen"></td>
         </tr>
         <tr>
             <td>Geslacht:</td>
@@ -53,20 +53,20 @@
             <label for="vrouw">Vrouw</label></td>
         </tr>
         <tr>
-            <td colspan="2"><input type="checkbox" checked>Wij mogen u per e-mail contacteren</td>
-            <td colspan="2"><input type="checkbox" checked>Wij mogen u per post contacteren</td>
+            <td colspan="2"><input type="checkbox"  id="email_contacteren" checked>Wij mogen u per e-mail contacteren</td>
+            <td colspan="2"><input type="checkbox"  id="post_contacteren" checked>Wij mogen u per post contacteren</td>
         </tr>
     </table>
 </fieldset>
 
 <fieldset>
     <legend>Opdracht</legend>
-    <table border="1">
+    <table>
         <tr>
-            <td><label>Uploaden:</td>
-            <td><input type="file" name="uploaden"></label></td>
-            <td><label>Paswoord:</td>
-            <td> <input type="password" name="paswoord"></label></td>
+            <td><label for="uploaden">Uploaden:</label></td>
+            <td><input id="uploaden" type="file" name="uploaden"></td>
+            <td><label for="paswoord">Paswoord:</label></td>
+            <td> <input id="paswoord" type="password" name="paswoord"></td>
         </tr>
         <tr>
             <td colspan="2"><select name="devices" size="1">
@@ -89,14 +89,14 @@
             </select></td>
         </tr>
         <tr>
-            <td><label>Zoeken:</td>
-            <td><input type="search" name="zoeken"></label></label></td>
+            <td><label for="zoeken">Zoeken:</label></td>
+            <td colspan="3"><input id="zoeken" type="search" name="zoeken"></td>
         </tr>
         <tr>
-            <td><label>Achtergrondkleur:</label></td>
-            <td><input type="color" name="kleur"></label></td>
-            <td><label>Afwijking</td>
-                <td><input type="range" value="127" step="1" min="0" max="255"></label></td>
+            <td><label for="Achtergrondkleur" >Achtergrondkleur:</label></td>
+            <td><input id="Achtergrondkleur" type="color" name="kleur"></td>
+            <td><label for="Afwijking">Afwijking</label></td>
+                <td><input id="Afwijking" type="range" value="127" step="1" min="0" max="255"></td>
         </tr>
     </table>
 </fieldset>
