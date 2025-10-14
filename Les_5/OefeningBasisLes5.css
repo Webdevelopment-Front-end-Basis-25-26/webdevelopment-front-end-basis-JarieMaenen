@@ -39,3 +39,16 @@
     color: #000000;
     text-decoration: underline;
 }
+
+#p2 {
+    border-width:3px; 
+    border-collapse: collapse; 
+    width: 99.9648%; 
+    height: 39.6px; 
+    font-family: 'book antiqua' , palatino , serif; 
+    font-size: 14.0pt; 
+    background-color: #add8e6; 
+    border-color: blue; 
+    border-style: solid;
+
+}
