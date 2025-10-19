@@ -1,0 +1,57 @@
+    body{ background-color: #32ca32 ;
+        background-image: url(Images/backdrop.gif);
+        background-repeat: repeat-y;
+        background-position: center;
+          color: brown;
+          font-family: serif;
+          
+    }
+
+    h1 {
+        font-family: sans-serif;
+        font-size: 2em;
+        text-align: center;
+        text-shadow:1px 1px 0px #FFFFFF;
+        background-color: darkred;
+        
+        
+    }
+
+    h2{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    a{
+        text-decoration: none;
+        color: yellow;
+    }
+
+    a#Beneden{
+        color: darkcyan;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    li{
+        list-style-image: url(Images/sqpurple.gif);
+        list-style:square inside url(Images/sqpurple.gif);
+
+    }
+
+    .Besluit{
+        font-variant: small-caps;
+    }
+    div{
+        font-style: oblique;
+    }
+
+    .Inspringen{
+     font-variant: small-caps;
+     text-indent: 20px;
+    }
+
+    .intro{
+        font-weight: bold;
+    }
+
+  
