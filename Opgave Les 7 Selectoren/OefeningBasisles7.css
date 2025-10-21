@@ -1,0 +1,156 @@
+body {
+    background-color: aquamarine;
+    font-family: Verdana;
+}
+
+h2 {
+   font-size: 1.25em;
+}
+
+header h2{
+    font-size: 1.75em ;
+    text-align: center;
+}
+
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+}
+
+nav a:hover{
+    background-color: yellow;
+text-decoration: underline;
+}
+
+nav a:active {
+    color: red;
+}
+
+nav a::before {
+    content: url(images/link.png);
+}
+
+nav a:first-child{
+    font-weight: bold;
+}
+
+nav a:nth-child(2) {
+    font-style: italic;
+}
+
+nav a:nth-child(3) {
+    font-style: italic;
+}
+
+nav a:nth-child(4) {
+    font-style: italic;
+}
+
+a:visited{
+    color: blue;
+}
+
+body > p{
+    font-variant: small-caps;
+}
+
+body > p::first-letter{
+    font-weight: bold;
+}
+
+h2 ~ p::first-line{
+    text-indent: 20px;
+    font-style: italic;
+}
+
+h2 ~ p::first-letter{
+    font-size: 1.75em;
+}
+
+ul > li{
+    color: green;
+     
+}
+
+ul > li > ul > li{
+    color: blue;
+    list-style-type: square;
+    list-style-image: none;
+}
+ul > li > ul > li:first-child{
+    list-style-type:disc;
+}
+
+
+ul > li + li{
+    color: red;
+    
+}
+
+ul > li{
+    list-style-image: url(images/clipboard.png);
+}
+
+ul > li:hover > ul > li{
+    list-style-type: circle;
+}
+ul > li:hover > ul > li:first-child{
+    list-style-type: disc;
+}
+
+input.text {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+input[name=naam]{
+    background-color: #FF1111;
+}
+
+input[name=voornaam]{
+    background-color: #1111FF;
+}
+
+input[name=naam]:hover{
+    background-color: #991111;
+}
+
+input[name=voornaam]:hover{
+    background-color: #111199;
+}
+
+input:focus:hover{
+    background-color:#11FF11;
+}
+
+label[for="tevreden"]{
+    color: #119911 ;
+}
+
+label[for="ontevreden"]{
+    color: #991111 ;
+}
+
+input[type="radio"]#tevreden:checked + label[for="tevreden"] {
+    color: #116611 ;
+}
+
+input[type="radio"]#ontevreden:checked + label[for="ontevreden"] {
+    color: #661111 ;
+}
+
+footer p{
+    font-size: 0.75em;
+    color: red;
+    text-align: right;
+}
+
+
+
+
