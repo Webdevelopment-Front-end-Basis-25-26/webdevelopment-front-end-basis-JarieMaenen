@@ -1,0 +1,209 @@
+*{
+
+ margin: 0;
+
+ padding: 0;
+
+}
+
+body {
+
+ font-family: Verdana, Tahoma, sans-serif;
+
+ background-color: #317082;
+
+}
+
+input{
+
+ font-family: inherit;
+
+ font-size: 1em;
+
+}
+
+#container {
+  width: 945px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  box-sizing: border-box;
+  
+}
+
+header h1{
+ background-color: #317082;
+ color: white;
+ font-weight: 100;
+ text-shadow:3px 3px 0px black;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ padding: 20px;
+ text-align: left;
+ border-style: solid;
+ border-width: thin;
+ border-color: #317082;
+ border-radius: 10px;
+ box-shadow: 10px 5px 10px #317082;
+}
+
+/*box-sizing: content-box;= 250px, total box = 280px(250+10+5)
+box-sizing: border-box; = 250px = total box*/
+
+header nav li{
+ list-style-type: none;
+ background-color: #317082;
+ display: inline-block;
+ 
+  padding: 5px 10px; 
+  border-radius: 10px / 5px; 
+  background-color:#317082; 
+  margin: 0 5px; 
+  margin-bottom: 20px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav ol{
+  text-align: center;
+}
+
+header nav ol li:hover{
+  background-color: black;
+}
+
+header nav ol li:hover a{
+  background-color: black;
+}
+
+header nav ol li a:hover{
+  color: white;
+}
+/*Als je over de lijst van de navigatie beweegt, krijgt deze een donkere achtergrondkleur.
+Zorg ervoor dat deze achtergrondkleur niet de volledige breedte inneemt, maar enkel de breedte van de items.
+Als over de lijst bewogen wordt, wordt de tekst kleur van de koppelingen dezelfde donkere kleur.
+Wanneer echter over een koppeling bewogen wordt, wordt de tekst kleur terug wit.*/
+
+#banner {
+  background-image: url(images/banner.jpg);
+  height: 214px;
+  width: 905px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  
+
+  box-sizing: content-box;
+  width: 240px;
+  height: 174px;
+  color: white;
+  padding: 20px 645px 20px 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+#banner p::first-letter{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#content h2{
+  border: 5px outset hsl(192, 45%, 25%);
+  border-top-right-radius: 20px;
+  color: white;
+  font-size: 1.4em;
+  font-weight: lighter;
+  font-style: italic;
+  background-color: hsl(192,45%, 35%);
+}
+
+#content p{
+  box-sizing: border-box;
+  border-bottom-style: dotted;
+  border-color: hsl(192, 45%, 25%);
+  
+  margin: 0px 5px 0px 5px;
+  padding: 10px 0px 10px 0px;
+}
+
+input{
+
+ font-family: inherit;
+
+ font-size: 1em;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse:collapse;
+    border: 4px ridge hsl(192, 45%, 25%);
+}
+
+th,td {
+    border: 1px solid hsl(192, 45%, 25%);
+    padding: 5px;
+}
+
+th {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+tr:hover td {
+    background-color: rgba(49, 112, 130, 0.5);
+}
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 3px double hsl(192, 45%, 25%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    border: 3px double hsl(192, 45%, 25%);
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+label {
+    display: inline-block;
+    margin: 5px;
+}
+
+input[type="text"] {
+    border: 2px solid hsl(192, 45%, 25%);
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px / 5px;
+    box-shadow: inset 0 0 4px hsl(192, 45%, 25%);
+    font-family: inherit;
+    font-size: 1em;
+}
+
+input[type="text"]:hover {
+    box-shadow: inset 0 0 8px hsl(192, 45%, 25%);
+}
+
+input[type="text"]:focus {
+    background-color: rgba(49, 112, 130, 0.5);
+    box-shadow: inset 0 0 8px hsl(192, 45%, 25%);
+}
+
+input[type="submit"] {
+    border: 2px solid hsl(192, 45%, 25%);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #317082;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 3px 3px 5px #317082;
+}
