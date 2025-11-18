@@ -1,0 +1,170 @@
+* {
+
+ margin: 0;
+
+ padding: 0;
+
+ box-sizing: border-box;
+
+}
+
+
+
+
+body {
+
+ font-family: Helvetica, Tahoma, Arial, sans-serif;
+
+ background-color: rgb(147, 162, 243);
+
+}
+
+input, textarea {
+
+ font-family: inherit;
+
+ font-size: 1em;
+
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: white;
+    width: 790px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-top: 10px;
+}
+
+header {
+    box-sizing: border-box;
+    background-image: url(images/header.jpg);
+    background-color: white;
+    width: 770px;
+    height: 215px;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+
+    text-align: right;
+    color: #EEEEEE;
+    text-shadow: -3px 2px 1px black;
+}
+
+header h2{
+    display: none;
+}
+
+nav{
+    margin: 10px;
+}
+
+nav ol li{
+    list-style-type: none;
+}
+
+
+nav ol li a{
+    color: white; 
+    text-decoration: none;
+    background-color: rgb(147, 162, 243);
+    
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+}
+
+nav ol{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a:hover{
+ color: rgb(101, 135, 224);
+}
+
+nav ol ol{
+    display: block;
+    visibility: hidden;
+
+}
+
+nav li:hover ol{
+    visibility: visible;
+}
+
+
+#content{
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+   
+}
+
+#content article{
+    border-style: dotted;
+    padding: 10px;
+}
+
+#content article h2{
+    border-bottom-style: dotted;
+}
+
+#content article p{
+    text-align: justify;
+    padding-top: 5px;
+}
+
+#content article p:first-of-type{
+    text-indent: 20px;
+}
+
+fieldset {
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+fieldset legend {
+    margin: 0px 10px;
+    padding: 0 10px;
+}
+
+input,
+textarea {
+    border: 1px solid black;
+    border-radius: 20px / 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+}
+
+form div label:first-of-type {
+    width: 120px;
+    text-align: right;
+}
+
+form div:last-of-type {
+    justify-content: flex-end;
+}
+
+footer {
+    background-image: url(images/header.jpg);
+    background-position:bottom;
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
