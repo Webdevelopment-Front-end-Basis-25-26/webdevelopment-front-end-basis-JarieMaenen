@@ -1,0 +1,16 @@
+{
+    "taken": [
+        {
+            "id": 1,
+            "tekst": "JavaScript oefening maken",
+            "prioriteit": "hoog",
+            "voltooid": false
+        },
+        {
+            "id": 2,
+            "tekst": "Boodschappen doen",
+            "prioriteit": "laag",
+            "voltooid": true
+        }
+    ]
+}
